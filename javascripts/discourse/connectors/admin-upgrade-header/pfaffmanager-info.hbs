@@ -1,0 +1,12 @@
+{{#if haveDashboard}}
+<div class="lc-dashboard">
+  <h2>Literate Computing Dashboard</h2>
+
+{{log "this is settings" haveDashboard}}
+<p>This site is, or has been, managed or installed by the <a target="_blank" href="https://dashboard.literatecomputing.com">Literate Computing Dashboard</a>.  
+You can use the dashboard to do command line rebuilds, add or remove plugins, and more. The Dashboard runs the same commands as 
+recommended for a standard install (like <tt>./launcher rebuild app</tt>), but also does some things you might forget, like 
+restarting the existing container if the rebuild fails, managing Postgres upgrades and so on.</p>
+<p>If a Critical Update is available, sometimes a command line upgrade is required and the dashboard can manage that for you with just a few clicks.</p>
+</div>
+{{/if}}

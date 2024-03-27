@@ -1,0 +1,8 @@
+hide_admin_users:
+    type: list
+    description: List of admin users to hide from admin section
+    default: "pfaffman"
+include_dashboard_link:
+    type: bool
+    description: Include link to Literate Computing Dashboard on admin panel
+    default: true

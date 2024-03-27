@@ -1,0 +1,3 @@
+en:
+  theme_metadata:
+    description: "This theme component adds a link on the admin panel to the Literate Computing Dashboard and hides pfaffman from the admin list."
