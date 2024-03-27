@@ -1,8 +1,12 @@
 hide_admin_users:
-    type: list
-    description: List of admin users to hide from admin section of about page
-    default: "pfaffman"
+  type: list
+  description: List of admin users to hide from admin section of about page
+  default: "pfaffman"
 include_dashboard_link:
-    type: bool
-    description: Include link to Literate Computing Dashboard on admin panel
-    default: true
+  type: bool
+  description: Include link to Literate Computing Dashboard on admin panel
+  default: true
+dashboard_server_id:
+  type: integer
+  description: Dashboard server ID, not needed if you have only one server on Dashboard
+  default: 0
