@@ -15,4 +15,8 @@ export default class AboutTextComponent extends Component {
       }
     }
   }
-<template><div {{didInsert this.hideAdmins}}></div></template>}
+
+  <template>
+    <div {{didInsert this.hideAdmins}}></div>
+  </template>
+}
